@@ -1,0 +1,8 @@
+.container { padding: 20px 0; }
+.backBtn { display: inline-block; margin-bottom: 20px; text-decoration: none; color: blue; }
+.movieCard { display: flex; gap: 30px; border-bottom: 1px solid #ccc; padding-bottom: 20px; }
+.poster { width: 300px; border-radius: 8px; }
+.info { flex: 1; }
+.additional { padding-top: 20px; }
+.nav { list-style: none; padding: 0; display: flex; gap: 15px; }
+.link { text-decoration: none; color: #333; font-weight: bold; }

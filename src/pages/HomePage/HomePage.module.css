@@ -1,0 +1,47 @@
+/* Container for the home page content */
+.container {
+  padding: 20px 0;
+}
+
+/* Main heading style */
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: left;
+  /* Simple decorative underline */
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 4px;
+  background-color: #e91e63; /* Pink accent color */
+  border-radius: 2px;
+}
+
+/* Style for the loading text */
+.loader {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  text-align: center;
+  margin-top: 50px;
+  font-style: italic;
+}
+
+/* Style for error messages */
+.error {
+  color: #e74c3c;
+  background-color: #fdeaea;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid #f5c6cb;
+}
